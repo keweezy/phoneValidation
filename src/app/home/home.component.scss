@@ -1,0 +1,133 @@
+
+// html {
+//     margin: 0px;
+//     height: 100%;
+//     width: 100%;
+//  }
+ 
+//  body {
+//     margin: 0px;
+//     min-height: 100%;
+//     width: 100%;
+//  }
+
+.flex{
+    display: flex;
+    margin-top: 50px;
+}
+// .container{
+//     height: 100%;
+//     border: solid 1px purple;
+//     background-image: url(../../assets/IMAGES/sample.jpg);
+//     position: relative;
+//     // opacity: 0.65;
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     margin: 0;
+//     background: rgba(28, 43, 30, 0.1);
+// }
+
+.flex1 {
+    flex: 1;
+    height: 500px;
+}
+
+.left {
+    margin-left: 80px;
+    margin-top: 120px;
+}
+.top{
+    margin-left: 40px;
+    margin-top: 24px;
+}
+// .img{
+//     position: absolute;
+//     background-color: transparent;
+//     opacity: 0.5;
+//     // height: 100%;
+//     width: 100%;
+//     height: 100%;
+//     background-image: url(../../assets/IMAGES/sample.jpg);
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+// }
+.p1{
+    font-size: 25px;
+    font-family: serif;
+    font-weight: 300;
+}
+button {
+    height: 40px;
+    margin: 10px;
+    width: 75px;
+    border-radius: 10px;
+    background-color: burlywood;
+}
+.input {
+    height: 33px;
+    width: 200px;
+}
+.result{
+    height: 350px;
+    width: 400px;
+    margin-left: 120px;
+    margin-top: 85px;
+    border: solid;
+    border-radius: 10px;
+    position: relative;
+}
+.searchP{
+    // border: solid grey;
+    margin-left: 125px;
+    margin-right: 145px;
+    text-align: center;
+    background-color: black;
+    margin-top: 9px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.input-group ::ng-deep input{
+    height: 33px !important;
+    width: 200px !important;
+    margin-top: 4.5px;
+    border: 0;
+}
+
+.validBut{
+    position: absolute;
+    margin-top: 0px;
+    left: 260px;
+}
+.span-num{
+    border: solid 1px;
+    border-radius: 2px;
+    background-color: white;
+}
+p{
+    font-family: initial;
+    color: floralwhite;
+}
+
+.my-container {
+    position: absolute;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    
+}
+.my-container p {
+    // padding: 200px;
+    position: relative;
+    // z-index: 2;
+} 
+.my-container img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}

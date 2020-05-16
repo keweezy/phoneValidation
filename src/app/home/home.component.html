@@ -1,0 +1,52 @@
+<div class="my-container">
+    <img src="../../assets/IMAGES/tower-820001_1920.jpg" alt="alternative">
+    <div>
+        <div class="flex">
+            <div class="flex1" style="flex: 1;">
+                <div class="top">
+                    <p class="p1">Wiz Number Verification</p>
+                </div>
+                <div class="left">
+                    <p style="font-size: 30px;">Global Phone Number Validator</p>
+                    <p style="font-size: 19px;">Enter Phone Number</p>
+                    <div>
+                        <form action="" class="input-group"> 
+                            <span class="span-num"><international-phone-number [(ngModel)]=searchString placeholder="+14158586273"
+                                [defaultCountry]="'us'" [required]="true" #phoneNumber="ngModel"
+                                name="phone_number" [allowedCountries]="[]"></international-phone-number></span>
+                            <button (click)="searchNum(searchString)" class="validBut">Validate</button>
+                    </form>
+                    </div>
+                </div>
+            </div>
+            <div class="flex1" style="flex: 1;">
+                <div class="result">
+                    <p class="searchP">Search Result</p>
+                    <div style="margin-left: 10px;">
+                        <span>
+                            <p>Valid: {{dispNum['valid']}}</p>
+                        </span>
+                        <span>
+                            <p>Carrier: {{dispNum['carrier']}}</p>
+                        </span>
+                        <span>
+                            <p>Country: {{dispNum['country_name']}}</p>
+                        </span>
+                        <span>
+                            <p>Locaion: {{dispNum['location']}}</p>
+                        </span>
+                        <span>
+                            <p>Local Format: {{dispNum['local_format']}}</p>
+                        </span>
+                        <span>
+                            <p>Intl. Format: {{dispNum['international_format']}}</p>
+                        </span>
+                        <span>
+                            <p>Line Type: {{dispNum['line_type']}}</p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
